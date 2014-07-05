@@ -191,6 +191,44 @@ p {
 
 }
 
+/*Logo Class*/
+.logo {
+	width: 50px;
+	height: 50px;
+	margin-right: 15px;
+}
+
+
+/*Form*/
+.input-append .add-on, .input-prepend .add-on {
+	background-color: #4c9598; /*Medium Green*/
+	border: 1px solid #2a544a; /*Dark Green*/
+	color: #2a544a; /*Dark Green*/
+	font-weight: bold;
+	text-shadow: 0 0px 0;
+	width: 80px;
+}
+
+select, textarea, input[type="text"], 
+input[type="password"], input[type="datetime"], 
+input[type="datetime-local"], input[type="date"], 
+input[type="month"], input[type="time"], 
+input[type="week"], input[type="number"], 
+input[type="email"], input[type="url"], 
+input[type="search"], input[type="tel"], 
+input[type="color"], .uneditable-input {
+	height: 30px;
+}
+
+textarea {
+  	width: 600px;
+  	min-width: 600px; 
+  	max-width: 600px;
+  	height: 200px;
+  	min-height: 200px;
+  	max-height: 200px;
+}
+
 
 /*Footer*/
 .footer {
